@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>Data de nascimento:</label>
+        <input type="text" id="nascimento" onKeyPress="inserirMascara('nascimento','xx/xx/xxxx')" value="03/12/1975" placeholder="__/__/____">
+        <input type="button" id="btnValidarNascimento" value="Validar" >
+        
+        <br>
+        <br><label>CPF:</label>
+        <input type="text" id="cpf" onKeyPress="inserirMascara('cpf','xxx.xxx.xxx-xx')" value="123.456.789-12" placeholder="__.___-____">
+        <input type="button" id="btnValidarCpf" value="Validar" >
+
+        <br>
+        <br><label>Numero de matricula:</label>
+        <input type="text" id="matricula" onKeyPress="inserirMascara('matricula','xxxx-xxx/xxx-xx')" value="IFTM-123/456-ab" placeholder="IFTM-___/___-__">
+        <input type="button" id="btnValidarMatricula" value="Validar" >
+
+        <br>
+        <br><label>Codigo da disciplina:</label>
+        <input type="text" id="desciplina" onKeyPress="inserirMascara('desciplina','xx-xx.xxx-xxxx')" value="MT-12.345-IFTM" placeholder="MT-__.___-IFTM">
+        <input type="button" id="btnValidarDisciplina" value="Validar" >
+        
+        <br>
+        <br><label>Codigo da disciplina:</label>
+        <input type="text" id="desciplina2" onKeyPress="inserirMascara('desciplina2','xx-xx.xxx-xxxx')" value="MT-12.345-IFTM" placeholder="MT-__.___-IFTM">
+        <input type="button" id="btnValidarDisciplina2" value="Validar" >
+
+        <br>
+        <br><label>Codigo da disciplina:</label>
+        <input type="text" id="desciplina3" value="MT-12.345-IFTM" placeholder="MT-__.___-IFTM">
+        <input type="button" id="btnValidarDisciplina3" value="Validar" >
+
+        <br>
+        <br><label>Codigo da disciplina:</label>
+        <input type="text" id="desciplina4" value="MT-12.345-IFTM Uberlândia" placeholder="MT-__.___-IFTM _________">
+        <input type="button" id="btnValidarDisciplina4" value="Validar">
+
+        <br>
+        <br><label>Nome de Campus IFTM:</label>
+        <input type="text" id="campus" value="IFTM campus Uberlândia">
+        <input type="button" id="btnValidaCampus" value="Validar" >
+
+        <br>
+        <br><label>Telefone:</label>
+        <input type="text" id="telefone" onKeyPress="inserirMascara('telefone','+xx(xx)xxxxx-xxxx')" value="+55(34)12345-6789" placeholder="+__(__)_____-____">
+        <input type="button" id="btnValidarTelefone" value="Validar" >
+
+        <br>
+        <br><label>Telefone:</label>
+        <input type="text" id="telefone2" value="(34)12345-6789" placeholder="(__)_____-____">
+        <input type="button" id="btnValidarTelefone2" value="Validar" >
+
+        <br>
+        <br><label>Altura:</label>
+        <input type="text" id="altura" value="1,55" placeholder="_,__">
+        <input type="button" id="btnValidarAltura" value="Validar" >
+
+        <br>
+        <br><label>Faturamento Anual:</label>
+        <input type="text" id="faturamento" placeholder="R$0,00" value="R$5.601.478,10">
+        <input type="button" id="btnValidarFaturamento" value="Validar">
+
+        <br>
+        <br><label>Cronômetro:</label>
+        <input type="text" id="cronometro" onKeyPress="inserirMascara('cronometro','xx:xx:xx:xx')" value="11:30:45:12" placeholder="__:__:__:__">
+        <input type="button" id="btnValidarCronometro" value="Validar" >
+
+        <br>
+        <br><label>Senha:</label>
+        <input type="text" id="senha" value="321a.&apMb.aei.Ab0-asf+_,/*.cq" placeholder="_____&_._._-_,__._">
+        <input type="button" id="btnValidarSenha" value="Validar" >
+        
+    </form>
+
+    <script src="js/jMaskWiFi.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
